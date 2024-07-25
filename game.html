@@ -6,28 +6,28 @@
         <meta name="viewport" content= 
             "width=device-width, initial-scale=1.0"> 
         <title>Craps</title> 
-        <link rel="stylesheet" href="main.css">
-        <script src="game.js"></script>
+        <link rel="stylesheet" href="main.css"> <!--This links the page to the CSS I coded-->
+        <script src="game.js"></script> <!--This links to page to my Javascript-->
     </head> 
       
     <body> 
-        <div class="container"> 
-            <h1>Ready to Play?</h1> 
+        <div class="container"> <!--This container allows me to edit the dice individually-->
+            <h1>Ready to Play?</h1> <!--This is the header where information is exh=changed-->
       
-            <div class="dice"> 
-                <img class="img1" src="dice6.jpg"> 
+            <div class="dice"> <!--My first dice-->
+                <img class="img1" src="dice6.jpg"> <!--Photo of the dice phases that will be swapped out thanks to my JS function-->
             </div> 
       
-            <div class="dice"> 
-                <img class="img2" src="dice6.jpg"> 
+            <div class="dice"> <!--My second dice-->
+                <img class="img2" src="dice6.jpg"> <!--Same info asw Dice one, this photo will change out when my function is run-->
             </div> 
         </div> 
       
-        <div class="container bottom"> 
+        <div class="container bottom"> <!--This container allows me to edit the button individually-->
             <button type="button" class="butn"
                 onClick="rollTheDice()"> 
                 Roll the Dice 
-            </button> 
+            </button> <!--This is the button firing my function-->
         </div> 
 
     </body> 
